@@ -1,3 +1,27 @@
-.welcome {
-    color: red;
+@media (max-width: 768px){
+   body {
+        background-image: url(./header-shapes\ mobile.png);
+        background-size: 100%;
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        
+    }
+
+    .img {
+        width: 10px;
+        margin: 10px;
+        display: flex;
+        position: absolute;
+        transition: 3s;
+        cursor: pointer;
+    }
+
+    .img span {
+        position: relative;
+        width: 100%;
+        background-color: rgb(122, 49, 199);
+        display: block;
+        transition: 3s;
+    }
+    
 }
