@@ -1,27 +1,23 @@
-@media (max-width: 768px){
-   body {
+
+@media (min-width: 376px) {
+    body {
+        background-color: #fff9f9;
         background-image: url(./header-shapes\ mobile.png);
-        background-size: 100%;
-        background-position: center;
-        /* background-repeat: no-repeat; */
-        
+        background-size: cover;
     }
 
-    .img {
-        width: 10px;
-        margin: 10px;
+    .header {
         display: flex;
-        position: absolute;
-        transition: 3s;
-        cursor: pointer;
+        justify-content:space-between;
     }
 
-    .img span {
-        position: relative;
-        width: 100%;
-        background-color: rgb(122, 49, 199);
-        display: block;
-        transition: 3s;
+    .logo {
+        width: 50px;
     }
-    
+
+    .hamburger {
+        width: 5%;
+        margin:15px;
+    }
+
 }
