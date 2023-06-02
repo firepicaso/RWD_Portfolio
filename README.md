@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./FireBorne.png" alt="logo" width="140"  height="auto" />
+  <img src="FireBorne Entertainment.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>FireBorne Entertainment</b></h3>
@@ -32,14 +32,15 @@
 - [📝 License](#license)
 
 
-# 📖 FireBorne Entertainment <a name="about-project"></a>
+# 📖 FirePicaso <a name="about-project"></a>
 
-This is a home page for FireBorne Entertainment. We are making exciting AR/VR experiences.
+This is a portfolio page for FirePicaso.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
-- CSS
+- CSS Flexbox
+- Figma Templates
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -59,6 +60,7 @@ We are using HTML and CSS so far in the project.
 - Added a HTML file
 - Added a CSS file
 - Added linters
+- Added Figma template schemes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:firepicaso/HelloWorld.git
+  git clone https://github.com/firepicaso/RWD_Portfolio.git
 ```
 
 ### Install
@@ -128,11 +130,9 @@ under construction
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- **Banner**
-- **Description**
-- **Video**
+- **Menu interactions**
+- **Navigation bar for desktop version**
+- **Other pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
