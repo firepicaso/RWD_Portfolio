@@ -44,6 +44,10 @@
     line-height: 52px;
     letter-spacing: 0;
     text-align: left;
+    margin: 0;
+  }
+
+  .main h1 {
     margin: 100px 0 0 0;
   }
 
@@ -68,6 +72,42 @@
     letter-spacing: 0;
     text-align: left;
     margin: 10px 0;
+  }
+
+  .summary {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .canopy {
+    font-family: "Poppins", sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344563;
+  }
+
+  .counter {
+    background-color: #C1C7D0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .caption {
+    font-family: "Poppins", sans-serif;
+    font-variant-caps: titling-caps;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A869A;
   }
 
   .social {
