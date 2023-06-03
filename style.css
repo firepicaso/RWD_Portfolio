@@ -2,24 +2,24 @@
 @media (min-width: 376px) {
   body {
     /* This is the main interface section */
-    background-color: #fff9f9;
-    background-image: url(./header-shapes\ mobile.png);
+    background-image: url(./background.png);
     background-size: cover;
   }
 
   .header {
-    /* Header section contains both the logo and the hamburger icon */
     display: flex;
     justify-content: space-between;
   }
-
-  .logo {
-    width: 50px;
-  }
-
-  .hamburger {
+  
+  .nav {
     width: 5%;
     margin: 15px;
+  }
+
+  .section {
+    /* Header section contains both the logo and the hamburger icon */
+    display: flex;
+    justify-content: space-between;
   }
 
   /* Add font and colors to the body texts */
@@ -32,7 +32,7 @@
     font-weight: 700;
     color: #172b4d;
   }
-
+  
   p {
     font-family: "Poppins", sans-serif;
     color: #344563;
@@ -43,16 +43,8 @@
     color: #7f8cff;
     font-variant-caps: all-petite-caps;
   }
-
+  
   .social {
     width: 40%;
-  }
-
-  .interface {
-    width: 100%;
-    height: 100vh;
-
-    /* background-color: aqua;
-        border-bottom-left-radius: 5em; */
   }
 }

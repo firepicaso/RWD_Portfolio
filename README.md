@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="FireBorne Entertainment.png" alt="logo" width="140"  height="auto" />
+  <img src="Assets/LogoLarge.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>FireBorne Entertainment</b></h3>
