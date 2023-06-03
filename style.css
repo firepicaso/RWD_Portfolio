@@ -1,5 +1,5 @@
 
-@media (min-width: 376px) {
+@media all and (min-width: 376px) {
   body {
     /* This is the main body section with very light grey background */
     background-color: #e5e5e5;
@@ -215,7 +215,6 @@
     border-radius: 8px;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 10px 0;
     margin: 0;
