@@ -110,6 +110,33 @@
     color: #7A869A;
   }
 
+  .techlist {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    width: 75%;
+  }
+
+  .tech {
+    background: #EBEBFF;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .project {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid;
+  }
+
   .social {
     display: flex;
     flex-direction: row;
