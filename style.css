@@ -162,15 +162,62 @@
     border-radius: 10px;
   }
 
-  .about {
-    display: flex;
+  .about-me {
+    display: flex;  
     flex-direction: column;
     height: 100vh;
     padding: 24px;
-    margin: 100px 0;
-    border: 0;
     margin: 0;
+    border: 0;
     background-color: white;
     border-radius: 0 60px 0 0;
+  }
+
+  .about {
+    margin: 100px 0;
+  }
+
+  .resume {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin: 12px 0;
+  }
+
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-variant-caps: titling-caps;  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding: 12px;
+    margin: 15px 0;
+  }
+
+  .technologies {
+    list-style: none;
+    align-items: left;
+    padding: 0 12px;
+  }
+  
+  .techlist {
+    background-color: #F7F7F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
   }
 }
