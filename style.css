@@ -1,16 +1,24 @@
 
 @media (min-width: 376px) {
+  
   body {
     /* This is the main interface section */
-    background-image: url(Assets/background.png);
+    background-color: #E5E5E5;
     background-size: cover;
-    background-position: center;
-    margin: 24px;
+    margin: 0;
+    display: 100vh;
   }
-
+  
   .wrapper {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    padding: 24px;
+    margin: 0px;
+    border: 0px;
+    background-image: url(Assets/background.png);
+    background-color: white;
+    border-radius: 0 0 0 60px;
   }
 
   .header {
