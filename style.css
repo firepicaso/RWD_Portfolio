@@ -2,24 +2,26 @@
 @media (min-width: 376px) {
   body {
     /* This is the main interface section */
-    background-image: url(./background.png);
+    background-image: url(Assets/background.png);
     background-size: cover;
+    background-position: center;
+    margin: 24px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
   }
-  
-  .nav {
-    width: 5%;
-    margin: 15px;
-  }
 
   .section {
     /* Header section contains both the logo and the hamburger icon */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   /* Add font and colors to the body texts */
@@ -27,24 +29,45 @@
   h1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
     font-family: "Poppins", sans-serif;
+    font-size: 40px;
     font-weight: 700;
-    color: #172b4d;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 100px 0 0 0;
   }
   
   p {
     font-family: "Poppins", sans-serif;
     color: #344563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
   }
 
   h2 {
     font-family: "Poppins", sans-serif;
-    color: #7f8cff;
     font-variant-caps: all-petite-caps;
+    color: #7f8cff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px 0;
   }
   
   .social {
-    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 }

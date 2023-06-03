@@ -1,0 +1,9 @@
+[33m766e8e6[m[33m ([m[1;36mHEAD -> [m[1;32mCreated_Portfolio_Homepage[m[33m, [m[1;31morigin/Created_Portfolio_Homepage[m[33m)[m Add wrapper div in the body, an asset folder
+[33mc1294a1[m Fix Style errors
+[33me2b878a[m Fix GitHub workflows
+[33mbbfc586[m Add details in Readme file
+[33mcbac467[m Add Styles to Body texts
+[33m4c2cd26[m Add Body Texts and Social media icons
+[33m4e79a57[m Create div for logo image and header and add hamburger icon
+[33mdcee78b[m Setup project with linters, HTML, CSS and Template Readme files
+[33m4c4b19f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Initial commit
