@@ -189,7 +189,7 @@
   }
 
   .about {
-    margin: 100px 0;
+    margin: 100px 0 0 0;
   }
 
   .resume {
@@ -260,9 +260,3 @@
   text-align: left;
   color: #172b4d;
 }
-
-/* @media all and (min-width: 768px) {
-  .wrapper {
-    flex-direction: row;
-  }
-} */
