@@ -29,7 +29,7 @@
     justify-content: space-between;
   }
 
-  .section {
+  .main {
     /* Section contains the texts and the social media icons */
     display: flex;
     flex-direction: column;
