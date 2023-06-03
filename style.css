@@ -1,0 +1,82 @@
+
+@media (min-width: 376px) {
+  body {
+    /* This is the main body section with very light grey background */
+    background-color: #e5e5e5;
+    background-size: cover;
+    margin: 0;
+    display: 100vh;
+  }
+
+  .wrapper {
+    /* the wrapper div wraps everything visible in the body */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 24px;
+    margin: 0;
+    border: 0;
+    background-image: url(Assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 0 0 0 60px;
+  }
+
+  .header {
+    /* This section is for the logo and the menu icon */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section {
+    /* Section contains the texts and the social media icons */
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 100px 0 0 0;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    color: #344563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-variant-caps: all-petite-caps;
+    color: #7f8cff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
