@@ -1,8 +1,7 @@
 
-@media (min-width: 376px) {
-  
+@media (min-width: 376px) {  
   body {
-    /* This is the main interface section */
+    /* This is the main body section with very light grey background */
     background-color: #E5E5E5;
     background-size: cover;
     margin: 0;
@@ -10,6 +9,7 @@
   }
   
   .wrapper {
+    /* the wrapper div wraps everything visible in the body */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -24,17 +24,16 @@
   }
 
   .header {
+    /* This section is for the logo and the menu icon */
     display: flex;
     justify-content: space-between;
   }
 
   .section {
-    /* Header section contains both the logo and the hamburger icon */
+    /* Section contains the texts and the social media icons*/
     display: flex;
     flex-direction: column;
   }
-
-  /* Add font and colors to the body texts */
 
   h1 {
     display: flex;
