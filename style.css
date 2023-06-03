@@ -138,18 +138,18 @@
   }
 
   .project:hover {
-    background-color: #6070FF;
+    background-color: #6070ff;
     color: white;
   }
 
   .project:active {
-    background-color: #2230D2; 
+    background-color: #2230d2;
     color: white;
   }
 
   .project:disabled {
     border: 1px solid;
-    color: #5E6C84
+    color: #5e6c84;
   }
 
   .social {
@@ -207,18 +207,18 @@
   }
 
   .resume:hover {
-    background-color: #6070FF;
+    background-color: #6070ff;
     color: white;
   }
 
   .resume:active {
-    background-color: #2230D2; 
+    background-color: #2230d2;
     color: white;
   }
 
   .resume:disabled {
     border: 1px solid;
-    color: #5E6C84
+    color: #5e6c84;
   }
 
   h6 {
@@ -252,14 +252,13 @@
 }
 
 .tonic {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #172B4D;
-
+  color: #172b4d;
 }
 
 /* @media all and (min-width: 768px) {
