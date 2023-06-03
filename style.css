@@ -1,21 +1,21 @@
 
-@media (min-width: 376px) {  
+@media (min-width: 376px) {
   body {
     /* This is the main body section with very light grey background */
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     background-size: cover;
     margin: 0;
     display: 100vh;
   }
-  
+
   .wrapper {
     /* the wrapper div wraps everything visible in the body */
     display: flex;
     flex-direction: column;
     height: 100vh;
     padding: 24px;
-    margin: 0px;
-    border: 0px;
+    margin: 0;
+    border: 0;
     background-image: url(Assets/background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +30,7 @@
   }
 
   .section {
-    /* Section contains the texts and the social media icons*/
+    /* Section contains the texts and the social media icons */
     display: flex;
     flex-direction: column;
   }
@@ -42,18 +42,18 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin: 100px 0 0 0;
   }
-  
+
   p {
     font-family: "Poppins", sans-serif;
     color: #344563;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin: 0;
   }
@@ -65,11 +65,11 @@
     font-size: 25px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin: 10px 0;
   }
-  
+
   .social {
     display: flex;
     flex-direction: row;
