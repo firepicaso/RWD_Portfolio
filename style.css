@@ -137,6 +137,21 @@
     border: 1px solid;
   }
 
+  .project:hover {
+    background-color: #6070FF;
+    color: white;
+  }
+
+  .project:active {
+    background-color: #2230D2; 
+    color: white;
+  }
+
+  .project:disabled {
+    border: 1px solid;
+    color: #5E6C84
+  }
+
   .social {
     display: flex;
     flex-direction: row;
@@ -191,6 +206,21 @@
     margin: 12px 0;
   }
 
+  .resume:hover {
+    background-color: #6070FF;
+    color: white;
+  }
+
+  .resume:active {
+    background-color: #2230D2; 
+    color: white;
+  }
+
+  .resume:disabled {
+    border: 1px solid;
+    color: #5E6C84
+  }
+
   h6 {
     font-family: "Poppins", sans-serif;
     font-variant-caps: titling-caps;
@@ -219,6 +249,17 @@
     padding: 10px 0;
     margin: 0;
   }
+}
+
+.tonic {
+  font-family: "Poppins" sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172B4D;
+
 }
 
 /* @media all and (min-width: 768px) {
