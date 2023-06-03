@@ -17,6 +17,8 @@
     margin: 0px;
     border: 0px;
     background-image: url(Assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: white;
     border-radius: 0 0 0 60px;
   }
