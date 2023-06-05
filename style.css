@@ -180,7 +180,7 @@
   .about-me {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     padding: 24px;
     margin: 0;
     border: 0;
