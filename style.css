@@ -110,7 +110,7 @@
     color: #7a869a;
   }
 
-  .techlist {
+  .techListPortfolio {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -242,7 +242,7 @@
     padding: 0 12px;
   }
 
-  .techlist2 {
+  .techListAbout {
     display: flex;
     flex-direction: row;
     align-items: center;
