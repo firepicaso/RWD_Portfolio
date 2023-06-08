@@ -5,13 +5,13 @@
   text-decoration: none;
 }
 
-@media all and (min-width: 376px) {  
+@media all and (min-width: 376px) {
   body {
     /* This is the main body section with very light grey background */
     background-color: #e5e5e5;
     width: 100%;
   }
-    
+
   .nav {
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     background-color: white;
     padding: 24px;
   }
-  
+
   .main {
     /* Section contains the texts and the social media icons */
     display: flex;
@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
-    color: #172B4D;
+    color: #172b4d;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -47,7 +47,7 @@
     text-align: left;
     margin: 0;
   }
-  
+
   .main-description {
     font-family: "Poppins", sans-serif;
     color: #344563;
@@ -58,7 +58,7 @@
     text-align: left;
     margin: 0;
   }
-  
+
   .social {
     display: flex;
     justify-content: start;
@@ -72,7 +72,7 @@
     grid-template-columns: auto;
     align-content: center;
   }
-  
+
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@
   h2.intro {
     margin: 100px 0 0 0;
   }
-  
+
   h2.lets-connect {
     font-family: "Poppins", sans-serif;
     font-variant-caps: all-petite-caps;
@@ -97,7 +97,7 @@
     text-align: left;
     margin: 15px 0;
   }
-  
+
   .summary {
     display: flex;
     width: 80%;
@@ -151,7 +151,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     color: #344563;
     text-align: left;
   }
@@ -168,13 +168,12 @@
 
   .tech-list-portfolio li {
     font-family: "Poppins", sans-serif;
-    color: #6070FF;
+    color: #6070ff;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
-
   }
 
   .tech {
@@ -211,7 +210,7 @@
     border: 1px solid;
     color: #5e6c84;
   }
-  
+
   .about-me {
     display: flex;
     flex-direction: column;
@@ -245,7 +244,7 @@
   }
 
   .button {
-    display:flex;
+    display: flex;
     justify-content: start;
   }
 
@@ -257,7 +256,7 @@
   }
 
   .notopen {
-    border-bottom: 1px solid #DFE1E6;
+    border-bottom: 1px solid #dfe1e6;
   }
 
   .technology li {
@@ -276,7 +275,7 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #253858;
   }
