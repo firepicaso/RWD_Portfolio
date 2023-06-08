@@ -165,6 +165,17 @@
     width: 75%;
   }
 
+  .tech-list-portfolio li {
+    font-family: "Poppins", sans-serif;
+    color: #6070FF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+  }
+
   .tech {
     background: #ebebff;
     padding: 5px 10px;
@@ -211,6 +222,10 @@
     border-radius: 0 60px 0 0;
   }
 
+  .about-me ul {
+    list-style: none;
+  }
+
   .about {
     margin: 100px 0 0 0;
   }
@@ -251,7 +266,6 @@
     align-items: center;
     background-color: #f7f7f9;
     border-radius: 8px;
-    list-style: none;
     padding: 10px;
     margin: 10px;
   }
