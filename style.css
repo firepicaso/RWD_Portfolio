@@ -35,10 +35,11 @@
     border-radius: 0 0 0 60px;
   }
 
-  h1 {
+  .intro {
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
+    color: #172B4D;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -79,8 +80,12 @@
     background-color: white;
     border-radius: 10px;
   }
+
+  h2.intro {
+    margin: 100px 0 0 0;
+  }
   
-  h2 {
+  h2.lets-connect {
     font-family: "Poppins", sans-serif;
     font-variant-caps: all-petite-caps;
     color: #7f8cff;
@@ -153,6 +158,7 @@
     padding: 15px;
     border-radius: 8px;
     border: 1px solid;
+    margin: 10px 0;
   }
 
   .project:hover {
@@ -169,7 +175,6 @@
     border: 1px solid;
     color: #5e6c84;
   }
-
   
   .about-me {
     display: flex;
@@ -186,36 +191,7 @@
     margin: 100px 0 0 0;
   }
 
-  .resume {
-    font-family: "Poppins", sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    background-color: transparent;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid;
-    margin: 12px 0;
-  }
-
-  .resume:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .resume:active {
-    background-color: #2230d2;
-    color: white;
-  }
-
-  .resume:disabled {
-    border: 1px solid;
-    color: #5e6c84;
-  }
-
-  h6 {
+  .languages {
     font-family: "Poppins", sans-serif;
     font-variant-caps: titling-caps;
     font-size: 20px;
@@ -228,21 +204,34 @@
     margin: 15px 0;
   }
 
-  .technologies {
+  .technologies p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .technology li {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
     background-color: #f7f7f9;
     border-radius: 8px;
     list-style: none;
-    align-items: left;
-    padding: 0 12px;
+    padding: 10px;
+    margin: 10px;
   }
 
-  .techListAbout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 0;
-    margin: 0;
+  .technology li span {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #253858;
   }
+
   .tonic {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
