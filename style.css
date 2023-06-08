@@ -159,7 +159,8 @@
   .tech-list-portfolio {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 10px;
     padding: 0;
     margin: 20px 0;
     width: 75%;
