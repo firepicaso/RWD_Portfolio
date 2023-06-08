@@ -204,6 +204,11 @@
     margin: 15px 0;
   }
 
+  .button {
+    display:flex;
+    justify-content: start;
+  }
+
   .technologies p {
     display: flex;
     justify-content: space-between;
