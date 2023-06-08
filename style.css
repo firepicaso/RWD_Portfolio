@@ -64,6 +64,7 @@
     justify-content: start;
     gap: 20px;
     list-style: none;
+    margin: 0 0 10px 0;
   }
 
   .works {
@@ -102,6 +103,18 @@
     width: 80%;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 10px 0;
+  }
+
+  .tonic {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
+    margin: 10px 0;
   }
 
   .canopy {
@@ -133,11 +146,22 @@
     color: #7a869a;
   }
 
+  .portfolio p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #344563;
+    text-align: left;
+  }
+
   .tech-list-portfolio {
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding: 0;
+    margin: 20px 0;
     width: 75%;
   }
 
@@ -158,7 +182,7 @@
     padding: 15px;
     border-radius: 8px;
     border: 1px solid;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
   }
 
   .project:hover {
@@ -211,8 +235,13 @@
 
   .technologies p {
     display: flex;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .notopen {
+    border-bottom: 1px solid #DFE1E6;
   }
 
   .technology li {
@@ -236,15 +265,4 @@
     text-align: left;
     color: #253858;
   }
-
-  .tonic {
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-  }
 }
-
