@@ -291,20 +291,20 @@
   .contact-section-contents {
     display: flex;
     flex-direction: column;
-    background: #6070FF;
+    background: #6070ff;
     background-image: url(Assets/contactformBackground.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
     padding: 0 24px;
     border-radius: 3.75rem 0 0 0;
     height: 100%;
     gap: 12px;
   }
-  
+
   .contact-header {
     justify-content: center;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -313,8 +313,8 @@
     align-items: center;
     text-align: center;
     margin: 100px 0 0 0;
-  }  
-  
+  }
+
   .contact-paragraph {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -324,11 +324,11 @@
     text-align: center;
     color: #fff;
   }
-  
+
   .contact-form {
     display: flex;
     justify-content: start;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
   .contact-form input {
@@ -368,7 +368,7 @@
     flex-direction: row;
     height: 5px;
     width: 134px;
-    background-color: #0d151E;
+    background-color: #0d151e;
     border-radius: 10px;
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
