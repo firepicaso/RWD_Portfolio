@@ -279,4 +279,18 @@
     text-align: left;
     color: #253858;
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #6070FF;
+    background-image: url(Assets/contactformBackground.png);
+    height: 100vh;
+
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;    
+  }
 }
