@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -295,7 +297,8 @@
     background-position:right;
     padding: 0 24px;
     border-radius: 3.75rem 0 0 0;
-    height: 779px;
+    height: 100%;
+    gap: 12px;
   }
   
   .contact-header {
@@ -319,6 +322,7 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+    color: #fff;
   }
   
   .contact-form {
@@ -330,15 +334,16 @@
   .contact-form input {
     height: 48px;
     border-radius: 8px;
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     padding: 10px;
     margin: 10px 0;
+    color: #172b4d;
   }
 
   .contact-form textarea {
     border-radius: 8px;
     padding: 10px;
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     margin: 10px 0;
   }
 
@@ -348,8 +353,8 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396df2;
-    background-color: white;
+    color: #6070ff;
+    background-color: #fff;
     padding: 15px;
     border-radius: 8px;
     border: 1px solid;
@@ -357,11 +362,16 @@
   }
 
   .bottom-shape {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     height: 5px;
     width: 134px;
-    background-color: #0D151E;
+    background-color: #0d151E;
     border-radius: 10px;
-    margin: 40px 0 0 0;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6.3rem;
   }
 }
