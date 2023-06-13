@@ -327,8 +327,19 @@
     flex-direction: column;    
   }
 
-  .contact-form ul {
-    list-style: none;
+  .contact-form input {
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #CFD8DC;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .contact-form textarea {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #CFD8DC;
+    margin: 10px 0;
   }
 
   .contact-button {
@@ -342,6 +353,15 @@
     padding: 15px;
     border-radius: 8px;
     border: 1px solid;
-    margin: 0 0 10px 0;
+    margin: 10px 0;
+  }
+
+  .bottom-shape {
+    justify-content: center;
+    height: 5px;
+    width: 134px;
+    background-color: #0D151E;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
   }
 }
