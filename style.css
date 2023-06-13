@@ -281,17 +281,14 @@
   }
 
   .contact-section {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-color: #fff;
   }
 
   .contact-section-contents {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background: #6070FF;
     background-image: url(Assets/contactformBackground.png);
     background-repeat: no-repeat;
@@ -300,13 +297,9 @@
     border-radius: 3.75rem 0 0 0;
     height: 779px;
   }
-
-  .form {
-    display: flex;
-    flex-direction: column;    
-  }
-
+  
   .contact-header {
+    justify-content: center;
     color: #fff;
     font-family: 'Poppins';
     font-style: normal;
@@ -317,8 +310,8 @@
     align-items: center;
     text-align: center;
     margin: 100px 0 0 0;
-  }
-
+  }  
+  
   .contact-paragraph {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -328,11 +321,27 @@
     text-align: center;
   }
   
+  .contact-form {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;    
+  }
+
   .contact-form ul {
     list-style: none;
   }
 
-  .contact-form li {
-    width: 100%;
+  .contact-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin: 0 0 10px 0;
   }
 }
