@@ -191,6 +191,11 @@ h2.lets-connect {
   border-radius: 8px;
 }
 
+.tech:hover {
+    transition: 1s ease;
+    background-color: yellow;
+}
+
 .project {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
