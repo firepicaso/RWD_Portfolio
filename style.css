@@ -192,8 +192,8 @@ h2.lets-connect {
 }
 
 .tech:hover {
-    transition: 1s ease;
-    background-color: yellow;
+  transition: 1s ease;
+  background-color: yellow;
 }
 
 .project {
@@ -385,8 +385,4 @@ h2.lets-connect {
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
   margin-left: 6.3rem;
-}
-
-@media screen and (min-width: 786px) {
-
 }
