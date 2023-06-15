@@ -426,4 +426,20 @@ h2.lets-connect {
     margin: 0 142px 100px 142px;
     padding: 16px;
   }
+
+  .image1 {
+    content: url(Assets/tonic1Big.png);
+  }
+
+  .image2 {
+    content: url(Assets/Multi1Big.png);
+  }
+
+  .image3 {
+    content: url(Assets/Tonic2Big.png);
+  }
+
+  .image4 {
+    content: url(Assets/Multi2Big.png);
+  }
 }
