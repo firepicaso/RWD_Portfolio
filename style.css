@@ -421,7 +421,8 @@ h2.lets-connect {
   }
 
   .portfolio {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin: 0 142px 100px 142px;
     padding: 16px;
@@ -441,5 +442,30 @@ h2.lets-connect {
 
   .image4 {
     content: url(Assets/Multi2Big.png);
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .contact-section-contents {
+    padding: 80px 400px;
+    background-image: url(Assets/contactBig.svg);
+    background-repeat: no-repeat;
+    background-size: 88%;
+  }
+
+  .contact-form input {
+    border-radius: 0;
+  }
+  
+  .contact-form textarea {
+    border-radius: 0;
+  }
+
+  .bottom-shape {
+    display: none;
   }
 }
