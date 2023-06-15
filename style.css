@@ -28,6 +28,19 @@ body {
   rotate: 360deg;
 }
 
+.pages {
+  display: none;
+  list-style: none;
+}
+
+.pages a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -388,5 +401,22 @@ h2.lets-connect {
 @media (min-width: 768px) {
   .menu-icon {
     display: none;
+  }
+
+  .pages {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav {
+    padding: 24px 100px;
+  }
+
+  .main {
+    padding: 260px;
+    background-image: url(Assets/backgrounBig.svg);
+    background-repeat: no-repeat;
+    background-size: 88%;
+    background-position-x: right;
   }
 }
