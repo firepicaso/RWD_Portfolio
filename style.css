@@ -120,8 +120,8 @@ h2.lets-connect {
 
 .summary {
   display: flex;
-  width: 80%;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10px;
   align-items: center;
   margin: 0 0 10px 0;
 }
@@ -418,5 +418,12 @@ h2.lets-connect {
     background-repeat: no-repeat;
     background-size: 88%;
     background-position-x: right;
+  }
+
+  .portfolio {
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 142px 100px 142px;
+    padding: 16px;
   }
 }
