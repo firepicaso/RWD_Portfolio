@@ -350,7 +350,6 @@ h2.lets-connect {
 
 .contact-form {
   display: flex;
-  justify-content: start;
   flex-direction: column;
 }
 
