@@ -490,6 +490,11 @@ h2.lets-connect {
     border-radius: 0;
   }
 
+  .contact-button-div {
+    display: flex;
+    justify-content: center;
+  }
+
   .bottom-shape {
     display: none;
   }
