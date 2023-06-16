@@ -476,10 +476,18 @@ h2.lets-connect {
   }
 
   .contact-section-contents {
-    padding: 80px 400px;
     background-image: url(Assets/contactBig.svg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 88%;
+  }
+
+  .contact-section-contents p {
+    padding: 0 315px;
+  }
+
+  form.contact-form {
+    padding: 0 380px;
   }
 
   .contact-form input {
@@ -493,6 +501,7 @@ h2.lets-connect {
   .contact-button-div {
     display: flex;
     justify-content: center;
+    padding: 5px 0 120px 0;
   }
 
   .bottom-shape {
