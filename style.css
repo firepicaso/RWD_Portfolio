@@ -425,9 +425,14 @@ h2.lets-connect {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
     gap: 30px;
     margin: 0 142px 100px 142px;
     padding: 16px;
+  }
+
+  .porfolio-right {
+    margin-right: 20px;
   }
 
   .image1 {
