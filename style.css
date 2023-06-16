@@ -412,11 +412,14 @@ h2.lets-connect {
   }
 
   .main {
-    padding: 260px;
-    background-image: url(Assets/backgrounBig.svg);
-    background-repeat: no-repeat;
-    background-size: 88%;
+    background-image: url(Assets/backgrounBig.png);
+    background-size: 95%;
     background-position-x: right;
+    background-repeat: no-repeat;
+  }
+
+  .main div {
+    padding: 359px 260px 435px 260px;
   }
 
   .portfolio {
@@ -446,12 +449,12 @@ h2.lets-connect {
   .about-me {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 30px; */
+    gap: 30px;
     padding: 166px 143px 130px 143px;
   }
 
   .about-me h2 {
-    margin: 25px 0 5px 0;
+    margin: 15px 0 5px 0;
   }
 
   .contact-section-contents {
