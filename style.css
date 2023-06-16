@@ -8,7 +8,6 @@
 }
 
 body {
-  /* This is the main body section with very light grey background */
   background-color: #e5e5e5;
   width: 100%;
 }
@@ -29,8 +28,20 @@ body {
   rotate: 360deg;
 }
 
+.pages {
+  display: none;
+  list-style: none;
+}
+
+.pages a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
+
 .main {
-  /* Section contains the texts and the social media icons */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +65,7 @@ body {
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
-  margin: 0;
+  margin: 5px 0;
 }
 
 .main-description {
@@ -65,7 +76,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 0;
+  margin: 5px 0;
 }
 
 .social {
@@ -73,7 +84,7 @@ body {
   justify-content: start;
   gap: 20px;
   list-style: none;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .works {
@@ -104,13 +115,13 @@ h2.lets-connect {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .summary {
   display: flex;
-  width: 80%;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10px;
   align-items: center;
   margin: 0 0 10px 0;
 }
@@ -339,7 +350,6 @@ h2.lets-connect {
 
 .contact-form {
   display: flex;
-  justify-content: start;
   flex-direction: column;
 }
 
@@ -385,4 +395,114 @@ h2.lets-connect {
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
   margin-left: 6.3rem;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .pages {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav {
+    padding: 24px 155px;
+  }
+
+  .main {
+    background-image: url(Assets/backgrounBig.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .main div {
+    padding: 0 260px;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+    gap: 30px;
+    margin: 0 142px 100px 142px;
+    padding: 16px;
+  }
+
+  .porfolio-right {
+    margin-right: 20px;
+  }
+
+  .project {
+    margin: 10px 0;
+  }
+
+  .image1 {
+    content: url(Assets/tonic1Big.png);
+  }
+
+  .image2 {
+    content: url(Assets/Multi1Big.png);
+  }
+
+  .image3 {
+    content: url(Assets/Tonic2Big.png);
+  }
+
+  .image4 {
+    content: url(Assets/Multi2Big.png);
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 166px 143px 130px 143px;
+  }
+
+  h2.intro {
+    margin: 20px 0;
+  }
+
+  h2.lets-connect {
+    margin: 20px 0;
+  }
+
+  .social {
+    margin: 30px 0;
+  }
+
+  .contact-section-contents {
+    background-image: url(Assets/contactBig.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 88%;
+  }
+
+  .contact-section-contents p {
+    padding: 0 315px;
+  }
+
+  form.contact-form {
+    padding: 0 380px;
+  }
+
+  .contact-form input {
+    border-radius: 0;
+  }
+
+  .contact-form textarea {
+    border-radius: 0;
+  }
+
+  .contact-button-div {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 120px 0;
+  }
+
+  .bottom-shape {
+    display: none;
+  }
 }
