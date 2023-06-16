@@ -425,7 +425,8 @@ h2.lets-connect {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
+    justify-content: start;
+    /* place-items: center; */
     gap: 30px;
     margin: 0 142px 100px 142px;
     padding: 16px;
@@ -433,6 +434,10 @@ h2.lets-connect {
 
   .porfolio-right {
     margin-right: 20px;
+  }
+
+  .project {
+    margin: 10px 0;
   }
 
   .image1 {
@@ -458,8 +463,16 @@ h2.lets-connect {
     padding: 166px 143px 130px 143px;
   }
 
-  .about-me h2 {
-    margin: 15px 0 5px 0;
+  h2.intro {
+    margin: 20px 0;
+  }
+  
+  h2.lets-connect {
+    margin: 20px 0;
+  }
+
+  .social {
+    margin: 30px 0;
   }
 
   .contact-section-contents {
@@ -472,16 +485,12 @@ h2.lets-connect {
   .contact-form input {
     border-radius: 0;
   }
-  
+
   .contact-form textarea {
     border-radius: 0;
   }
 
   .bottom-shape {
     display: none;
-  }
-
-  h2.lets-connect {
-    margin: 5px 0;
   }
 }
