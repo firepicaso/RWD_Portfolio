@@ -65,7 +65,7 @@ body {
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
-  margin: 0;
+  margin: 5px 0;
 }
 
 .main-description {
@@ -76,7 +76,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 0;
+  margin: 5px 0;
 }
 
 .social {
@@ -84,7 +84,7 @@ body {
   justify-content: start;
   gap: 20px;
   list-style: none;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .works {
@@ -115,7 +115,7 @@ h2.lets-connect {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .summary {
@@ -446,12 +446,12 @@ h2.lets-connect {
   .about-me {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    /* gap: 30px; */
     padding: 166px 143px 130px 143px;
   }
 
   .about-me h2 {
-    margin: 25px 0 0 0;
+    margin: 25px 0 5px 0;
   }
 
   .contact-section-contents {
@@ -471,5 +471,9 @@ h2.lets-connect {
 
   .bottom-shape {
     display: none;
+  }
+
+  h2.lets-connect {
+    margin: 5px 0;
   }
 }
