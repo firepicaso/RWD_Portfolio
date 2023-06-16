@@ -425,7 +425,6 @@ h2.lets-connect {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: start;
-    /* place-items: center; */
     gap: 30px;
     margin: 0 142px 100px 142px;
     padding: 16px;
@@ -465,7 +464,7 @@ h2.lets-connect {
   h2.intro {
     margin: 20px 0;
   }
-  
+
   h2.lets-connect {
     margin: 20px 0;
   }
