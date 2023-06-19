@@ -370,7 +370,8 @@ h2.lets-connect {
 }
 
 .labels {
-  display: none;
+  color: #6070ff;
+  height: 0;
 }
 
 .contact-button {
