@@ -114,7 +114,8 @@ Under construction
 
 ### Deployment
 
-under construction
+Pleae checkout my portfolio website through this link:
+https://firepicaso.github.io/RWD_Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
