@@ -67,7 +67,7 @@ We are using HTML and CSS so far in the project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Under construction
+https://firepicaso.github.io/RWD_Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
