@@ -34,23 +34,23 @@ body {
 }
 
 .pages.active {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    color: white;
-    margin: 0;
-    padding-top: 70px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    justify-content: start;
-    align-items: start;
-    padding-left: 0;
-    padding-right: 1px;
-    text-align: unset;
-    position: fixed;
-    z-index: 2;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding-top: 70px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  justify-content: start;
+  align-items: start;
+  padding-left: 0;
+  padding-right: 1px;
+  text-align: unset;
+  position: fixed;
+  z-index: 2;
 }
 
 .cancel-icon {
@@ -63,14 +63,14 @@ body {
 }
 
 .hamburger-icon.disabled {
-display: none;
+  display: none;
 }
 
-.container.active-color{
- background-color: #6070ff;
+.container.active-color {
+  background-color: #6070ff;
 }
 
-.main.blur{
+.main.blur {
   filter: blur(9px);
 }
 
