@@ -8,21 +8,24 @@
     <title>FirePicaso's portfolio</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <nav class="nav">
             <div class="logo">
                 <img src="Assets/LogoSmall.png" alt="My Logo">                
             </div>
             <div class="menu-icon">
-                <img src="Assets/MenuIcon.png" alt="menu-icon">
+                <img src="Assets/MenuIcon.png" alt="hamburger-icon" class="hamburger-icon">
+                <img src="Assets/cancel-black.svg" alt="" class="cancel-icon">
             </div>
             <ul class="pages">
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#work" class="nav-list-items" id="portfoliolink"> Portfolio </a></li>
+                <li><a href="#about" class="nav-list-items" id="aboutlink">About</a></li>
+                <li><a href="#form" class="nav-list-items" id="contactlink">Contact</a></li>
             </ul>
         </nav>
     </header>
+</div>
     <section class="main">
         <div>
             <h1 class="intro">I'm FirePicaso.<br/>Glad to see<br/>You!</h1>
@@ -59,7 +62,8 @@
             </ul>
         </div>
     </section>
-    <section class="works">
+
+    <section class="works" id="work">
         <div class="portfolio">
             <div class="image1 portfolio-left">
                 <img src="Assets/Tonic1.png" alt="Portfolio image1">
@@ -157,7 +161,7 @@
             </div>
         </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
         <div>
             <h2 class="intro">About Myself</h2>
             <p class="main-description">
@@ -233,7 +237,7 @@
             </ul>
         </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="form">
         <div class="contact-section-contents">
             <h2 class="contact-header">Contact me</h2>
             <p class="contact-paragraph">
@@ -253,5 +257,6 @@
             </form> 
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
