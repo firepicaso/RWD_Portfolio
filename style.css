@@ -109,7 +109,7 @@ h2.intro {
 h2.lets-connect {
   font-family: Poppins, sans-serif;
   font-variant-caps: all-petite-caps;
-  color: #7f8cff;
+  color: #4d5eff;
   font-size: 25px;
   font-weight: 500;
   line-height: 24px;
@@ -163,7 +163,7 @@ h2.lets-connect {
   line-height: 16px;
   letter-spacing: 0;
   text-align: left;
-  color: #7a869a;
+  color: #4f5969;
 }
 
 .portfolio p {
@@ -187,8 +187,8 @@ h2.lets-connect {
 }
 
 .tech-list-portfolio li {
-  font-family: Poppins, sans-serif;
-  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  color: #3d51ff;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -314,8 +314,8 @@ h2.lets-connect {
 .contact-section-contents {
   display: flex;
   flex-direction: column;
-  background: #6070ff;
-  background-image: url("Assets/contactformBackground.png");
+  background: #5263ff;
+  background-image: url(Assets/contactformBackground.png);
   background-repeat: no-repeat;
   background-position: right;
   padding: 0 24px;
@@ -369,13 +369,18 @@ h2.lets-connect {
   margin: 10px 0;
 }
 
+.labels {
+  color: #6070ff;
+  height: 0;
+}
+
 .contact-button {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #5263ff;
   background-color: #fff;
   padding: 15px;
   border-radius: 8px;
