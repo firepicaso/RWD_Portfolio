@@ -32,6 +32,7 @@ body {
   display: none;
   list-style: none;
 }
+
 .pages.active {
     display: flex;
     flex-direction: column;
@@ -51,20 +52,24 @@ body {
     position: fixed;
     z-index: 2;
 }
+
 .cancel-icon {
   display: none;
 }
+
 .cancel-icon.active-icon {
   display: flex;
   position: absolute;
 }
+
 .hamburger-icon.disabled {
 display: none;
 }
+
 .container.active-color{
  background-color: #6070ff;
-
 }
+
 .main.blur{
   filter: blur(9px);
 }
