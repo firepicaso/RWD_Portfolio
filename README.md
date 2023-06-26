@@ -71,6 +71,9 @@ https://firepicaso.github.io/RWD_Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Loom Walkthrough
+
+https://www.loom.com/share/19f8b072a2e044e29282962be8ae7010?sid=1f6d711a-7ca7-4135-a27e-bbf5bf9bbe70
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
