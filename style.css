@@ -75,7 +75,7 @@ body {
 }
 
 .pages a {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -87,10 +87,10 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 0 24px;
-  margin: 0 0 120px 0;
+  margin: 0 0 120px;
   height: 88vh;
   background-color: white;
-  background-image: url(Assets/background.png);
+  background-image: url("Assets/background.png");
   background-repeat: no-repeat;
   background-position: top;
   border-radius: 0 0 0 60px;
@@ -99,7 +99,7 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
@@ -110,7 +110,7 @@ body {
 }
 
 .main-description {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   color: #344563;
   font-size: 16px;
   font-weight: 400;
@@ -125,7 +125,7 @@ body {
   justify-content: start;
   gap: 20px;
   list-style: none;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 
 .works {
@@ -137,18 +137,18 @@ body {
 .portfolio {
   display: flex;
   flex-direction: column;
-  margin: 0 24px 100px 24px;
+  margin: 0 24px 100px;
   padding: 16px;
   background-color: white;
   border-radius: 10px;
 }
 
 h2.intro {
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
 }
 
 h2.lets-connect {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-variant-caps: all-petite-caps;
   color: #4d5eff;
   font-size: 25px;
@@ -164,11 +164,11 @@ h2.lets-connect {
   justify-content: flex-start;
   gap: 10px;
   align-items: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 
 .tonic {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -179,7 +179,7 @@ h2.lets-connect {
 }
 
 .canopy {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-variant-caps: small-caps;
   font-size: 13px;
   font-weight: 600;
@@ -197,7 +197,7 @@ h2.lets-connect {
 }
 
 .caption {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-variant-caps: titling-caps;
   font-size: 13px;
   font-weight: 600;
@@ -208,7 +208,7 @@ h2.lets-connect {
 }
 
 .portfolio p {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -228,7 +228,7 @@ h2.lets-connect {
 }
 
 .tech-list-portfolio li {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   color: #3d51ff;
   font-size: 12px;
   font-weight: 500;
@@ -249,7 +249,7 @@ h2.lets-connect {
 }
 
 .project {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -259,7 +259,7 @@ h2.lets-connect {
   padding: 15px;
   border-radius: 8px;
   border: 1px solid;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 
 .project:hover {
@@ -281,7 +281,7 @@ h2.lets-connect {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 24px 24px 150px 24px;
+  padding: 24px 24px 150px;
   margin: 0;
   border: 0;
   background-color: white;
@@ -293,11 +293,11 @@ h2.lets-connect {
 }
 
 .about {
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
 }
 
 .languages {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-variant-caps: titling-caps;
   font-size: 20px;
   font-weight: 500;
@@ -337,7 +337,7 @@ h2.lets-connect {
 }
 
 .technology li span {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -356,11 +356,11 @@ h2.lets-connect {
   display: flex;
   flex-direction: column;
   background: #5263ff;
-  background-image: url(Assets/contactformBackground.png);
+  background-image: url("Assets/contactformBackground.png");
   background-repeat: no-repeat;
   background-position: right;
   padding: 0 24px;
-  border-radius: 3.75rem 0 0 0;
+  border-radius: 3.75rem 0 0;
   height: 100%;
   gap: 12px;
 }
@@ -368,7 +368,7 @@ h2.lets-connect {
 .contact-header {
   justify-content: center;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -376,11 +376,11 @@ h2.lets-connect {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
 }
 
 .contact-paragraph {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -416,7 +416,7 @@ h2.lets-connect {
 }
 
 .contact-button {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -443,7 +443,7 @@ h2.lets-connect {
   margin-left: 6.3rem;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .menu-icon {
     display: none;
   }
@@ -458,7 +458,7 @@ h2.lets-connect {
   }
 
   .main {
-    background-image: url(Assets/backgrounBig.png);
+    background-image: url("Assets/backgrounBig.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -472,7 +472,7 @@ h2.lets-connect {
     grid-template-columns: repeat(2, 1fr);
     justify-content: start;
     gap: 30px;
-    margin: 0 142px 100px 142px;
+    margin: 0 142px 100px;
     padding: 16px;
   }
 
@@ -485,26 +485,26 @@ h2.lets-connect {
   }
 
   .image1 {
-    content: url(Assets/tonic1Big.png);
+    content: url("Assets/tonic1Big.png");
   }
 
   .image2 {
-    content: url(Assets/Multi1Big.png);
+    content: url("Assets/Multi1Big.png");
   }
 
   .image3 {
-    content: url(Assets/Tonic2Big.png);
+    content: url("Assets/Tonic2Big.png");
   }
 
   .image4 {
-    content: url(Assets/Multi2Big.png);
+    content: url("Assets/Multi2Big.png");
   }
 
   .about-me {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    padding: 166px 143px 130px 143px;
+    padding: 166px 143px 130px;
   }
 
   h2.intro {
@@ -520,7 +520,7 @@ h2.lets-connect {
   }
 
   .contact-section-contents {
-    background-image: url(Assets/contactBig.svg);
+    background-image: url("Assets/contactBig.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 88%;
@@ -545,7 +545,7 @@ h2.lets-connect {
   .contact-button-div {
     display: flex;
     justify-content: center;
-    padding: 5px 0 120px 0;
+    padding: 5px 0 120px;
   }
 
   .bottom-shape {
