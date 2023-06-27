@@ -59,7 +59,7 @@ const works = [
 ];
 
 function seeProject() {
-  modal.classList.toggle('active');  
+  modal.classList.toggle('active');
 }
 
 function openMenu() {

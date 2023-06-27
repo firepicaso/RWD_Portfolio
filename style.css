@@ -81,7 +81,7 @@ body {
   z-index: 200;
 }
 
-.main {
+.welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,6 +288,7 @@ h2.lets-connect {
 }
 
 .modal.active {
+  /* position: sticky; */
   display:flex;
   flex-direction: column;
   background-color: white;
@@ -295,7 +296,7 @@ h2.lets-connect {
   padding: 1rem;
   border-radius: 1rem;
   margin: 1rem;
-  /* position: ; */
+  filter: unset;
 }
 
 .modal-header {
@@ -491,7 +492,7 @@ h2.lets-connect {
     padding: 24px 155px;
   }
 
-  .main {
+  .welcome {
     background-image: url("Assets/backgrounBig.png");
     background-size: 100%;
     background-repeat: no-repeat;
