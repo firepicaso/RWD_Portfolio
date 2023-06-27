@@ -33,11 +33,10 @@ body {
   list-style: none;
 }
 
-.pages.active {
+.pages.active-list {
   display: flex;
   flex-direction: column;
   list-style: none;
-  color: white;
   margin: 0;
   padding-top: 70px;
   font-style: normal;
@@ -50,7 +49,25 @@ body {
   padding-right: 1px;
   text-align: unset;
   position: fixed;
+  top: 5%;
   z-index: 2;
+}
+.nav-list-items {
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.container.active-container {
+  height: 5400px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  opacity: 0.8;
+}
+.nav.active-nav {
+  background-color: #6070ff;
 }
 
 .cancel-icon {
@@ -74,13 +91,7 @@ body {
   filter: blur(9px);
 }
 
-.pages a {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #344563;
-}
+
 
 .main {
   display: flex;
@@ -550,5 +561,15 @@ h2.lets-connect {
 
   .bottom-shape {
     display: none;
+  }
+  .main.blur {
+    filter: unset;
+  }
+  .pages a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
   }
 }
