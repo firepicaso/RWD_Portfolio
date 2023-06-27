@@ -1,21 +1,37 @@
-const cancel = document.querySelector('.cancel-icon');
-const navList = document.querySelector('.pages');
 const menu = document.querySelector('.menu-icon');
+const cancel = document.querySelector('.cancel-icon');
+const pages = document.querySelector('.pages');
 const main = document.querySelector('.main');
 const logo = document.querySelector('.logo');
+const pageselections = document.querySelectorAll('.page-selection');
 
-menu.addEventListener('click', () => {
-  navList.classList.add('add-pages');
-  cancel.classList.add('active-icon');
+function openMenu(){
+  pages.classList.add('active');
+  cancel.classList.add('active');
   main.classList.add('blur');
   logo.classList.add('blur');
   menu.classList.add('blur');
-});
+}
 
-cancel.addEventListener('click', () => { 
-  navList.classList.remove('add-pages');
-  cancel.classList.remove('active-icon');
+function closeMenu(){
+  pages.classList.remove('active');
+  cancel.classList.remove('active');
   main.classList.remove('blur');
   logo.classList.remove('blur');
   menu.classList.remove('blur');
+}
+
+menu.addEventListener('click', () => {
+  openMenu();
 });
+
+cancel.addEventListener('click', () => {
+  closeMenu();
+});
+
+pageselections.forEach(page => {
+  page.addEventListener('click', () => {
+    closeMenu();
+  });
+});
+
