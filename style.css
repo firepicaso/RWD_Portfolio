@@ -284,6 +284,10 @@ h2.lets-connect {
   display: none;
 }
 
+.modal.active {
+  display:flex;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
