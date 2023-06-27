@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.header.blur {
+  filter: blur(9px);
+}
+
 .container {
   display: flex;
   background-color: white;
@@ -289,15 +293,16 @@ h2.lets-connect {
 
 .modal.active {
   display:flex;
+}
+
+.modal-container.active {
   flex-direction: column;
   justify-content: start;
-  align-content: start;
-  
-  position: fixed;
   top: 0;
   left: 0;
-  min-height: 90vh;
-
+  bottom: 0;
+  position: fixed;
+  max-height: 85vh;
   background-color: white;
   z-index: 400;
   padding: 1rem;
@@ -311,10 +316,15 @@ h2.lets-connect {
   flex-direction: row;
 }
 
+.modal-techlist {
+  border-bottom: 1px solid #dfe1e6;
+}
+
 .modal-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 1.5rem 0 0 0;
   gap: 1rem;
 }
 

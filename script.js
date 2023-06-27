@@ -2,9 +2,11 @@ const menu = document.querySelector('.menu-icon');
 const cancel = document.querySelector('.cancel-icon');
 const pages = document.querySelector('.pages');
 const main = document.querySelector('.main');
+const header = document.querySelector('.header');
 const logo = document.querySelector('.logo');
 const pageselections = document.querySelectorAll('.page-selection');
 const modal = document.querySelector('.modal');
+const modalContainer = document.querySelector('.modal-container');
 const modalCancel = document.querySelector('.modal-cancel');
 const modalButton1 = document.querySelector('.modal-button1');
 const modalButton2 = document.querySelector('.modal-button2');
@@ -60,6 +62,9 @@ const works = [
 
 function seeProject() {
   modal.classList.toggle('active');
+  modalContainer.classList.toggle('active');
+  main.classList.toggle('blur');
+  header.classList.toggle('blur');
 }
 
 function openMenu() {
@@ -99,4 +104,7 @@ modalButton4.addEventListener('click', () => {seeProject();});
 
 modalCancel.addEventListener('click', () => {
   modal.classList.toggle('active');
+  modalContainer.classList.toggle('active');
+  main.classList.toggle('blur');
+  header.classList.toggle('blur');
 });

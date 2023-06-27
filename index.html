@@ -8,7 +8,7 @@
     <title>FirePicaso's portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="logo">
                 <img src="Assets/LogoSmall.png" alt="My Logo">                
@@ -28,6 +28,42 @@
             </nav>
         </div>
     </header>
+    <section class="modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="tonic modal-heading">Tonic</h2>
+                <img src="Assets/modalCancelBlack.svg" alt="modal-cancel" class="modal-cancel">
+            </div>
+            <div class="summary">
+                <h3 class="canopy">CANOPY</h3>
+                <div class="counter"></div>
+                <h3 class="caption">Back End Dev</h3>
+                <div class="counter"></div>
+                <h3 class="caption">2015</h3>                
+            </div>
+            <div class="image1 portfolio-left">
+                <img src="Assets/Tonic1.png" alt="Portfolio image1">
+            </div>
+            <p class="modal-description">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <div class="modal-techlist">
+                <ul class="tech-list-portfolio">
+                    <li class="tech">HTML</li>
+                    <li class="tech">CSS</li>
+                    <li class="tech">JavaScript</li>
+                </ul>
+            </div>
+            <div class="modal-buttons">
+                <button class="project">See live
+                    <img src="Assets/liveLink.svg" alt="see-live">
+                </button>
+                <button class="project">See Source
+                    <img src="Assets/liveSource.svg" alt="see-source">
+                </button>
+            </div>
+        </div>
+    </section>
     <main class="main">
         <section class="welcome">
             <div>
@@ -63,38 +99,6 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-        </section>
-        <section class="modal">
-            <div class="modal-header">
-                <h2 class="tonic modal-heading">Tonic</h2>
-                <img src="Assets/modalCancelBlack.svg" alt="modal-cancel" class="modal-cancel">
-            </div>
-            <div class="summary">
-                <h3 class="canopy">CANOPY</h3>
-                <div class="counter"></div>
-                <h3 class="caption">Back End Dev</h3>
-                <div class="counter"></div>
-                <h3 class="caption">2015</h3>                
-            </div>
-            <div class="image1 portfolio-left">
-                <img src="Assets/Tonic1.png" alt="Portfolio image1">
-            </div>
-            <p class="modal-description">
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-            <ul class="tech-list-portfolio">
-                <li class="tech">HTML</li>
-                <li class="tech">CSS</li>
-                <li class="tech">JavaScript</li>
-            </ul>
-            <div class="modal-buttons">
-                <button class="project">See live
-                    <img src="Assets/liveLink.svg" alt="see-live">
-                </button>
-                <button class="project">See Source
-                    <img src="Assets/liveSource.svg" alt="see-source">
-                </button>
             </div>
         </section>
         <section class="works" id="work">
@@ -253,8 +257,7 @@
                                 <img src="Assets/CSS.png" alt="CSS">
                                 <span>CSS</span>
                             </li>
-                        </ul>
-            
+                        </ul>            
                     </li>
                     <li class="technologies notopen">
                         <p>
