@@ -48,11 +48,10 @@ body {
 .pages a {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  color: white;  
+  color: white;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -456,7 +455,7 @@ h2.lets-connect {
     display: flex;
     gap: 20px;
   }
-  
+
   .container {
     padding: 24px 155px;
   }
