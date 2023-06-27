@@ -210,7 +210,7 @@ h2.lets-connect {
   color: #4f5969;
 }
 
-.portfolio p {
+.portfolio p,.modal p {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -286,6 +286,14 @@ h2.lets-connect {
 
 .modal.active {
   display:flex;
+  flex-direction: column;
+  /* position: ; */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .about-me {
