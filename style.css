@@ -288,15 +288,21 @@ h2.lets-connect {
 }
 
 .modal.active {
-  /* position: sticky; */
   display:flex;
   flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 90vh;
+
   background-color: white;
   z-index: 400;
   padding: 1rem;
   border-radius: 1rem;
   margin: 1rem;
-  filter: unset;
 }
 
 .modal-header {
