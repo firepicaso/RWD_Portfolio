@@ -93,8 +93,6 @@ body {
   filter: blur(9px);
 }
 
-
-
 .main {
   display: flex;
   flex-direction: column;
