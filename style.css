@@ -17,17 +17,23 @@ body {
   background-color: white;
   justify-content: space-between;
   align-items: center;
+  padding: 24px;
+}
+
+.menu-icon.blur {
+  filter: blur(8px);
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px;
+  padding: 0 10px;
 }
 
 .logo {
   transition: rotate 2s;
+}
+
+.logo.blur {
+  filter: blur(15px);
 }
 
 .logo:hover {
@@ -39,31 +45,21 @@ body {
   list-style: none;
 }
 
-.pages.active-list {
+.pages.add-pages {
+  position: absolute;
+  background-color: rgba(96, 112, 255, 1);
   display: flex;
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+  padding-left: 40px;
   flex-direction: column;
-  list-style: none;
-  margin: 0;
-  padding-top: 70px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  justify-content: start;
-  align-items: start;
-  padding-left: 0;
-  padding-right: 1px;
-  text-align: unset;
-  position: fixed;
-  top: 5%;
-  z-index: 2;
-}
-
-.nav-list-items {
-  padding-bottom: 20px;
-  text-decoration: none;
-  color: white;
-  font-family: Poppins, sans-serif;
+  gap: 1.2rem;
+  transition: all 0.6s ease-in;
+  z-index: 100;
 }
 
 .container.active-container {
@@ -87,18 +83,6 @@ body {
   position: absolute;
 }
 
-.hamburger-icon.disabled {
-  display: none;
-}
-
-.container.active-color {
-  background-color: #6070ff;
-}
-
-.main.blur {
-  filter: blur(9px);
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -111,6 +95,10 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   border-radius: 0 0 0 60px;
+}
+
+.main.blur {
+  filter: blur(7px);
 }
 
 .intro {
@@ -460,7 +448,7 @@ h2.lets-connect {
   margin-left: 6.3rem;
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .menu-icon {
     display: none;
   }
@@ -469,8 +457,8 @@ h2.lets-connect {
     display: flex;
     gap: 20px;
   }
-
-  .nav {
+  
+  .container {
     padding: 24px 155px;
   }
 
@@ -478,10 +466,6 @@ h2.lets-connect {
     background-image: url("Assets/backgrounBig.png");
     background-size: 100%;
     background-repeat: no-repeat;
-  }
-
-  .main div {
-    padding: 0 260px;
   }
 
   .portfolio {
@@ -548,7 +532,7 @@ h2.lets-connect {
   }
 
   form.contact-form {
-    padding: 0 380px;
+    padding: 0 500px;
   }
 
   .contact-form input {
