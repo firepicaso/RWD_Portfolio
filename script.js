@@ -6,19 +6,19 @@ const logo = document.querySelector('.logo');
 const pageselections = document.querySelectorAll('.page-selection');
 
 function openMenu() {
-  pages.classList.add('active');
-  cancel.classList.add('active');
-  main.classList.add('blur');
-  logo.classList.add('blur');
-  menu.classList.add('blur');
+  pages.classList.toggle('active');
+  cancel.classList.toggle('active');
+  main.classList.toggle('blur');
+  logo.classList.toggle('blur');
+  menu.classList.toggle('blur');
 }
 
 function closeMenu() {
-  pages.classList.remove('active');
-  cancel.classList.remove('active');
-  main.classList.remove('blur');
-  logo.classList.remove('blur');
-  menu.classList.remove('blur');
+  pages.classList.toggle('active');
+  cancel.classList.toggle('active');
+  main.classList.toggle('blur');
+  logo.classList.toggle('blur');
+  menu.classList.toggle('blur');
 }
 
 menu.addEventListener('click', () => {

@@ -58,7 +58,7 @@ body {
 .pages.active {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   background-color: rgba(96, 112, 255, 1);
   mix-blend-mode: multiply;
   width: 100%;
@@ -278,6 +278,10 @@ h2.lets-connect {
 .project:disabled {
   border: 1px solid;
   color: #5e6c84;
+}
+
+.modal {
+  display: none;
 }
 
 .about-me {
