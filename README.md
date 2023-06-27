@@ -40,6 +40,7 @@ This is a portfolio page for FirePicaso.
 
 - HTML
 - CSS Flexbox
+- JavaScript
 - Figma Templates
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -59,6 +60,7 @@ We are using HTML and CSS so far in the project.
 
 - Added a HTML file
 - Added a CSS file
+- Added a Javascript file
 - Added linters
 - Added Figma template schemes
 
