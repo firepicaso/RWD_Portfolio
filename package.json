@@ -4,7 +4,7 @@
     "stylelint": "^15.9.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^5.0.1"
+    "stylelint-scss": "^3.21.0"
   },
   "name": "rwd_portfolio",
   "description": "<a name=\"readme-top\"></a>",
@@ -183,7 +183,7 @@
     "strip-ansi": "^6.0.1",
     "strip-indent": "^3.0.0",
     "style-search": "^0.1.0",
-    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-config-recommended": "^0.1.0",
     "stylus": "^0.59.0",
     "sugarss": "^2.0.0",
     "supports-color": "^7.2.0",

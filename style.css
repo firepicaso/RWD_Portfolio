@@ -52,6 +52,7 @@ body {
   top: 5%;
   z-index: 2;
 }
+
 .nav-list-items {
   padding-bottom: 20px;
   text-decoration: none;
@@ -66,6 +67,7 @@ body {
   width: 100%;
   opacity: 0.8;
 }
+
 .nav.active-nav {
   background-color: #6070ff;
 }
@@ -562,9 +564,11 @@ h2.lets-connect {
   .bottom-shape {
     display: none;
   }
+
   .main.blur {
     filter: unset;
   }
+
   .pages a {
     font-family: Poppins, sans-serif;
     font-style: normal;
