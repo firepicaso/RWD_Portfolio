@@ -252,6 +252,9 @@ h2.lets-connect {
 }
 
 .project {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -287,6 +290,11 @@ h2.lets-connect {
 .modal.active {
   display:flex;
   flex-direction: column;
+  background-color: white;
+  z-index: 400;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
   /* position: ; */
 }
 
@@ -294,6 +302,13 @@ h2.lets-connect {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .about-me {
