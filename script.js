@@ -6,7 +6,6 @@ const main = document.querySelector('.main');
 const header = document.querySelector('.header');
 const logo = document.querySelector('.logo');
 const modal = document.querySelector('.modal');
-const modalContainer = document.querySelector('.modal-container');
 const modalCancel = document.querySelector('.modal-cancel');
 const modalButton1 = document.querySelector('.modal-button1');
 const modalButton2 = document.querySelector('.modal-button2');
@@ -60,9 +59,35 @@ const works = [
   },
 ];
 
-function seeProject() {
+function seeProject(index) {
+  const work = works[index];
+  const modalHeading = document.querySelector('.modal-heading');
+  const modalClient = document.querySelector('.client');
+  const modalCaption = document.querySelector('.caption');
+  const modalYear = document.querySelector('.year');
+  const modalImage = document.querySelector('.portfolio-image');
+  const modalDescription = document.querySelector('.modal-description');
+  const modalTechlist = document.querySelector('.tech-list-portfolio');
+  const modalSeelive = document.querySelector('.see-live');
+  const modalSeesource = document.querySelector('.see-source');
+
+  modalHeading.textContent = work.title;
+  modalClient.textContent = work.client;
+  modalCaption.textContent = work.workType;
+  modalYear.textContent = work.year;
+  modalImage.setAttribute('src', work.featuredImage);
+  modalDescription.textContent = work.description;
+  modalSeelive.setAttribute('href', work.liveLink);
+  modalSeesource.setAttribute('href', work.sourceLink);
+
+  modalTechlist.innerHTML = '';
+  work.technologies.forEach((technology) => {
+    const li = document.createElement('li');
+    li.innerText = technology;
+    modalTechlist.appendChild(li);
+  });
+
   modal.classList.toggle('active');
-  modalContainer.classList.toggle('active');
   main.classList.toggle('blur');
   header.classList.toggle('blur');
 }
@@ -97,14 +122,13 @@ pageselections.forEach((page) => {
   });
 });
 
-modalButton1.addEventListener('click', () => {seeProject();});
-modalButton2.addEventListener('click', () => {seeProject();});
-modalButton3.addEventListener('click', () => {seeProject();});
-modalButton4.addEventListener('click', () => {seeProject();});
+modalButton1.addEventListener('click', () => {seeProject(0);});
+modalButton2.addEventListener('click', () => {seeProject(1);});
+modalButton3.addEventListener('click', () => {seeProject(2);});
+modalButton4.addEventListener('click', () => {seeProject(3);});
 
 modalCancel.addEventListener('click', () => {
   modal.classList.toggle('active');
-  modalContainer.classList.toggle('active');
   main.classList.toggle('blur');
   header.classList.toggle('blur');
 });

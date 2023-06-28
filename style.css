@@ -226,6 +226,7 @@ h2.lets-connect {
 
 .tech-list-portfolio {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: start;
   gap: 10px;
@@ -241,13 +242,9 @@ h2.lets-connect {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.tech {
   background: #ebebff;
-  padding: 5px 10px;
   border-radius: 8px;
+  padding: 5px 10px;
 }
 
 .tech:hover {
@@ -302,7 +299,7 @@ h2.lets-connect {
   z-index: 3;
 }
 
-.modal-container.active {
+.modal-container {
   flex-direction: column;
   justify-content: start;
   max-height: 85vh;
