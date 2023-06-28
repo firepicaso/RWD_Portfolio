@@ -1,10 +1,10 @@
 const menu = document.querySelector('.menu-icon');
 const cancel = document.querySelector('.cancel-icon');
 const pages = document.querySelector('.pages');
+const pageselections = document.querySelectorAll('.page-selection');
 const main = document.querySelector('.main');
 const header = document.querySelector('.header');
 const logo = document.querySelector('.logo');
-const pageselections = document.querySelectorAll('.page-selection');
 const modal = document.querySelector('.modal');
 const modalContainer = document.querySelector('.modal-container');
 const modalCancel = document.querySelector('.modal-cancel');
@@ -68,19 +68,19 @@ function seeProject() {
 }
 
 function openMenu() {
-  pages.classList.toggle('active');
-  cancel.classList.toggle('active');
-  main.classList.toggle('blur');
-  logo.classList.toggle('blur');
-  menu.classList.toggle('blur');
+  pages.classList.add('active');
+  cancel.classList.add('active');
+  main.classList.add('blur');
+  logo.classList.add('blur');
+  menu.classList.add('blur');
 }
 
 function closeMenu() {
-  pages.classList.toggle('active');
-  cancel.classList.toggle('active');
-  main.classList.toggle('blur');
-  logo.classList.toggle('blur');
-  menu.classList.toggle('blur');
+  pages.classList.remove('active');
+  cancel.classList.remove('active');
+  main.classList.remove('blur');
+  logo.classList.remove('blur');
+  menu.classList.remove('blur');
 }
 
 menu.addEventListener('click', () => {
