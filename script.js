@@ -23,7 +23,7 @@ const works = [
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     title: 'Multi-Post Stories',
@@ -35,7 +35,7 @@ const works = [
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     title: 'Facebook 360',
@@ -47,7 +47,7 @@ const works = [
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     title: 'Uber Navigation',
@@ -59,7 +59,7 @@ const works = [
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
 ];
 
@@ -82,11 +82,11 @@ function seeProject(index) {
   modalImage.setAttribute('src', work.featuredImage);
   modalSeelive.setAttribute('href', work.liveLink);
   modalSeesource.setAttribute('href', work.sourceLink);
-  
+
   if (window.innerWidth >= 768) {
-    modalDescription.textContent = work.descriptionDesktop;  
+    modalDescription.textContent = work.descriptionDesktop;
   } else {
-    modalDescription.textContent = work.description; 
+    modalDescription.textContent = work.description;
   }
 
   modalTechlist.innerHTML = '';
@@ -131,10 +131,10 @@ pageselections.forEach((page) => {
   });
 });
 
-modalButton1.addEventListener('click', () => {seeProject(0);});
-modalButton2.addEventListener('click', () => {seeProject(1);});
-modalButton3.addEventListener('click', () => {seeProject(2);});
-modalButton4.addEventListener('click', () => {seeProject(3);});
+modalButton1.addEventListener('click', () => { seeProject(0); });
+modalButton2.addEventListener('click', () => { seeProject(1); });
+modalButton3.addEventListener('click', () => { seeProject(2); });
+modalButton4.addEventListener('click', () => { seeProject(3); });
 
 modalCancel.addEventListener('click', () => {
   modal.classList.toggle('active');

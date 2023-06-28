@@ -214,7 +214,8 @@ h2.lets-connect {
   color: #4f5969;
 }
 
-.portfolio p,.modal p {
+.portfolio p,
+.modal p {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -289,7 +290,7 @@ h2.lets-connect {
 }
 
 .modal.active {
-  display:block;
+  display: block;
   position: fixed;
   justify-content: center;
   top: 0;
@@ -332,7 +333,7 @@ h2.lets-connect {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1.5rem 0 0 0;
+  padding: 1.5rem 0 0;
   gap: 1rem;
 }
 
