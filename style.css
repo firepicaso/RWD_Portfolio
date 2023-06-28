@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.header.blur {
+  filter: blur(9px);
+}
+
 .container {
   display: flex;
   background-color: white;
@@ -58,7 +62,7 @@ body {
 .pages.active {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   background-color: rgba(96, 112, 255, 1);
   mix-blend-mode: multiply;
   width: 100%;
@@ -68,7 +72,7 @@ body {
   padding-top: 105px;
   padding-left: 40px;
   gap: 1.2rem;
-  z-index: 100;
+  z-index: 997;
 }
 
 .cancel-icon {
@@ -78,10 +82,10 @@ body {
 .cancel-icon.active {
   display: flex;
   position: absolute;
-  z-index: 200;
+  z-index: 998;
 }
 
-.main {
+.welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,7 +214,8 @@ h2.lets-connect {
   color: #4f5969;
 }
 
-.portfolio p {
+.portfolio p,
+.modal p {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -222,6 +227,7 @@ h2.lets-connect {
 
 .tech-list-portfolio {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: start;
   gap: 10px;
@@ -237,13 +243,9 @@ h2.lets-connect {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.tech {
   background: #ebebff;
-  padding: 5px 10px;
   border-radius: 8px;
+  padding: 5px 10px;
 }
 
 .tech:hover {
@@ -252,6 +254,9 @@ h2.lets-connect {
 }
 
 .project {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -278,6 +283,58 @@ h2.lets-connect {
 .project:disabled {
   border: 1px solid;
   color: #5e6c84;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.active {
+  display: block;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(160, 165, 173, 0.7);
+  z-index: 999;
+  overflow-y: initial !important;
+}
+
+.modal-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-height: 95vh;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-heading {
+  margin-top: 0;
+}
+
+.modal-techlist {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5rem 0 0;
+  gap: 1rem;
 }
 
 .about-me {
@@ -460,10 +517,48 @@ h2.lets-connect {
     padding: 24px 155px;
   }
 
-  .main {
+  .welcome {
     background-image: url("Assets/backgrounBig.png");
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+
+  .modal-container {
+    margin: 1rem 8rem;
+  }
+
+  .portfolio-image {
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .modal-description-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .modal-description {
+    width: 70%;
+    padding-top: 2rem;
+    content: 'text';
+  }
+
+  .modal-techlist-buttons {
+    width: 30%;
+  }
+
+  .tech-list-portfolio {
+    margin-right: 0;
+  }
+
+  .modal-techlist ul {
+    margin-top: 2rem;
+  }
+
+  .modal-buttons {
+    justify-content: end;
   }
 
   .portfolio {
@@ -484,19 +579,19 @@ h2.lets-connect {
   }
 
   .image1 {
-    content: url("Assets/tonic1Big.png");
+    content: url("Assets/tonic1Big.svg");
   }
 
   .image2 {
-    content: url("Assets/Multi1Big.png");
+    content: url("Assets/Multi1Big.svg");
   }
 
   .image3 {
-    content: url("Assets/Tonic2Big.png");
+    content: url("Assets/Tonic2Big.svg");
   }
 
   .image4 {
-    content: url("Assets/Multi2Big.png");
+    content: url("Assets/Multi2Big.svg");
   }
 
   .about-me {

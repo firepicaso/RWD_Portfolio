@@ -8,7 +8,7 @@
     <title>FirePicaso's portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="logo">
                 <img src="Assets/LogoSmall.png" alt="My Logo">                
@@ -28,236 +28,275 @@
             </nav>
         </div>
     </header>
-    <section class="main">
-        <div>
-            <h1 class="intro">I'm FirePicaso.<br/>Glad to see<br/>You!</h1>
-            <p class="main-description">
-                I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-            </p>
-            <h2 class="lets-connect">Let's connect</h2>
-            <ul class="social">
-                <li>
-                    <a href="https://twitter.com/FirePicaso">
-                        <img src="Assets/Twitter.png" alt="twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mustakim-masum/">
-                        <img src="Assets/Linkedin.png" alt="Linkedin">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.monster.com/">
-                        <img src="Assets/Monster.png" alt="Monster">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/firepicaso">
-                        <img src="Assets/gitHub.png" alt="gitHub">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.google.com">
-                        <img src="Assets/fingers.png" alt="fingers">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="works" id="work">
-        <div class="portfolio">
-            <div class="image1 portfolio-left">
+    <section class="modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="tonic modal-heading"></h2>
+                <img src="Assets/modalCancelBlack.svg" alt="modal-cancel" class="modal-cancel">
+            </div>
+            <div class="summary">
+                <h3 class="canopy client"></h3>
+                <div class="counter"></div>
+                <h3 class="caption"></h3>
+                <div class="counter"></div>
+                <h3 class="caption year"></h3>                
+            </div>
+            <div class="image1 portfolio-image">
                 <img src="Assets/Tonic1.png" alt="Portfolio image1">
             </div>
-            <div class="portfolio-right">
-                <h2 class="tonic">Tonic</h2>
-                <div class="summary">
-                    <h3 class="canopy">CANOPY</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">Back End Dev</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">2015</h3>                
+            <div class="modal-description-section">
+                <p class="modal-description"></p>
+                <div class="modal-techlist-buttons">
+                    <div class="modal-techlist">
+                        <ul class="tech-list-portfolio modal-techlist-ul">
+                        </ul>
+                    </div>
+                    <div class="modal-buttons">
+                        <button class="project see-live">See live
+                            <img src="Assets/liveLink.svg" alt="see-live">
+                        </button>
+                        <button class="project see-source">See Source
+                            <img src="Assets/liveSource.svg" alt="see-source">
+                        </button>
+                    </div>
                 </div>
-                <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tech-list-portfolio">
-                    <li class="tech">HTML</li>
-                    <li class="tech">CSS</li>
-                    <li class="tech">JavaScript</li>
-                </ul>
-                <button class="project">See project</button>
-            </div>
-        </div>
-        <div class="portfolio">
-            <div class="image2 portfolio-left">
-                <img src="Assets/Muti1.png" alt="Portfolio image2">
-            </div>
-            <div class="portfolio-right">
-                <h2 class="tonic">Multi-Post<br/>Stories</h2>
-                <div class="summary">
-                    <h3 class="canopy">CANOPY</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">Back End Dev</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">2015</h3>                
-                </div>
-                <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tech-list-portfolio">
-                    <li class="tech">HTML</li>
-                    <li class="tech">CSS</li>
-                    <li class="tech">JavaScript</li>
-                </ul>
-                <button class="project">See project</button>
-            </div>
-        </div>
-        <div class="portfolio">
-            <div class="image3 portfolio-left">
-                <img src="Assets/Multi2.png" alt="Portfolio image3">
-            </div>
-            <div class="portfolio-right">
-                <h2 class="tonic">Multi-Post<br/>Stories</h2>
-                <div class="summary">
-                    <h3 class="canopy">CANOPY</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">Back End Dev</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">2015</h3>                
-                </div>
-                <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tech-list-portfolio">
-                    <li class="tech">HTML</li>
-                    <li class="tech">CSS</li>
-                    <li class="tech">JavaScript</li>
-                </ul>
-                <button class="project">See project</button>
-            </div>
-        </div>
-        <div class="portfolio">
-            <div class="image4 portfolio-left">
-                <img src="Assets/Tonic2.png" alt="Portfolio image4">
-            </div>
-            <div class="portfolio-right">
-                <h2 class="tonic">Tonic</h2>
-                <div class="summary">
-                    <h3 class="canopy">CANOPY</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">Back End Dev</h3>
-                    <div class="counter"></div>
-                    <h3 class="caption">2015</h3>                
-                </div>
-                <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tech-list-portfolio">
-                    <li class="tech">HTML</li>
-                    <li class="tech">CSS</li>
-                    <li class="tech">JavaScript</li>
-                </ul>
-                <button class="project">See project</button>
             </div>
         </div>
     </section>
-    <section class="about-me" id="about">
-        <div>
-            <h2 class="intro">About Myself</h2>
-            <p class="main-description">
-                Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-            </p>
-            <h2 class="lets-connect">Let's connect</h2>          
-            <ul class="social">
-                <li>
-                    <a href="https://twitter.com/FirePicaso">
-                        <img src="Assets/Twitter.png" alt="twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mustakim-masum/">
-                        <img src="Assets/Linkedin.png" alt="linkedin">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.monster.com/">
-                        <img src="Assets/Monster.png" alt="monster">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/firepicaso">
-                        <img src="Assets/gitHub.png" alt="github">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.google.com">
-                        <img src="Assets/fingers.png" alt="fingers logo">
-                    </a>
-                </li>                
-            </ul>
-            <div class="button">
-                <button class="project">Get my resume</button>
+    <main class="main">
+        <section class="welcome">
+            <div>
+                <h1 class="intro">I'm FirePicaso.<br/>Glad to see<br/>You!</h1>
+                <p class="main-description">
+                    I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                </p>
+                <h2 class="lets-connect">Let's connect</h2>
+                <ul class="social">
+                    <li>
+                        <a href="https://twitter.com/FirePicaso">
+                            <img src="Assets/Twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mustakim-masum/">
+                            <img src="Assets/Linkedin.png" alt="Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.monster.com/">
+                            <img src="Assets/Monster.png" alt="Monster">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/firepicaso">
+                            <img src="Assets/gitHub.png" alt="gitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com">
+                            <img src="Assets/fingers.png" alt="fingers">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div>
-            <ul class="categories">
-                <li class="technologies">
+        </section>
+        <section class="works" id="work">
+            <div class="portfolio">
+                <div class="image1">
+                    <img src="Assets/Tonic1.png" alt="Portfolio image1">
+                </div>
+                <div class="portfolio-right">
+                    <h2 class="tonic">Tonic</h2>
+                    <div class="summary">
+                        <h3 class="canopy">CANOPY</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">Back End Dev</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">2015</h3>                
+                    </div>
                     <p>
-                        <span class="languages">Languages</span>
-                        <img src="Assets/downArrow.png" alt="down arrow">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
                     </p>
-                    <ul class="technology">
-                        <li>
-                            <img src="Assets/JS.png" alt="JavaScript">
-                            <span>JavaScript</span>
-                        </li>
-                        <li>
-                            <img src="Assets/HLML.png" alt="HTML">
-                            <span>HTML</span>
-                        </li>
-                        <li>
-                            <img src="Assets/CSS.png" alt="CSS">
-                            <span>CSS</span>
-                        </li>
+                    <ul class="tech-list-portfolio">
+                        <li class="tech">HTML</li>
+                        <li class="tech">CSS</li>
+                        <li class="tech">JavaScript</li>
                     </ul>
-        
-                </li>
-                <li class="technologies notopen">
-                    <p>
-                        <span class="languages">Frameworks</span>
-                        <img src="Assets/rightArrow.png" alt="right arrow">
-                    </p>
-                </li>
-                <li class="technologies notopen">
-                    <p>
-                        <span class="languages">Skills</span>
-                        <img src="Assets/rightArrow.png" alt="right arrow">
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="contact-section" id="form">
-        <div class="contact-section-contents">
-            <h2 class="contact-header">Contact me</h2>
-            <p class="contact-paragraph">
-                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
-            </p>
-            <form class="contact-form" action="https://formspree.io/f/mlekqdlj" method="post">
-                <label class="labels" for="name">Name</label>
-                <input type="text" id="name" name="name" required maxlength="30" value="Full Name">
-                <label class="labels" for="email">Email</label>
-                <input type="email" id="email" name="email" required value="loremipsum@gmail.com">
-                <label class="labels" for="message">Message</label>
-                <textarea id="message" name="message" required maxlength="500" placeholder="Write your message here" style="height:200px"></textarea>
-                <div class="contact-button-div">
-                    <button type="submit" class="contact-button">Get in touch</button>
+                    <button class="project modal-button1">See project</button>
                 </div>
-                <div class="bottom-shape"></div>
-            </form> 
-        </div>
-    </section>
+            </div>
+            <div class="portfolio">
+                <div class="image2">
+                    <img src="Assets/Muti1.png" alt="Portfolio image2">
+                </div>
+                <div class="portfolio-right">
+                    <h2 class="tonic">Multi-Post<br/>Stories</h2>
+                    <div class="summary">
+                        <h3 class="canopy">FACEBOOK</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">Full Stack Dev</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">2015</h3>                
+                    </div>
+                    <p>
+                        Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                    </p>
+                    <ul class="tech-list-portfolio">
+                        <li class="tech">HTML</li>
+                        <li class="tech">Rube on rails</li>
+                        <li class="tech">CSS</li>
+                        <li class="tech">JavaScript</li>
+                    </ul>
+                    <button class="project modal-button2">See project</button>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="image4">
+                    <img src="Assets/Tonic2.png" alt="Portfolio image4">
+                </div>
+                <div class="portfolio-right">
+                    <h2 class="tonic">Facebook 360</h2>
+                    <div class="summary">
+                        <h3 class="canopy">FACEBOOK</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">Full Stack Dev</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">2015</h3>                
+                    </div>
+                    <p>
+                        Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                    </p>
+                    <ul class="tech-list-portfolio">
+                        <li class="tech">HTML</li>
+                        <li class="tech">Rube on rails</li>
+                        <li class="tech">CSS</li>
+                        <li class="tech">JavaScript</li>
+                    </ul>
+                    <button class="project modal-button3">See project</button>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="image3">
+                    <img src="Assets/Multi2.png" alt="Portfolio image3">
+                </div>
+                <div class="portfolio-right">
+                    <h2 class="tonic">Uber Navigation</h2>
+                    <div class="summary">
+                        <h3 class="canopy">UBER</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">Lead Developer</h3>
+                        <div class="counter"></div>
+                        <h3 class="caption">2018</h3>                
+                    </div>
+                    <p>
+                        A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                    </p>
+                    <ul class="tech-list-portfolio">
+                        <li class="tech">HTML</li>
+                        <li class="tech">Rube on rails</li>
+                        <li class="tech">CSS</li>
+                        <li class="tech">JavaScript</li>
+                    </ul>
+                    <button class="project modal-button4">See project</button>
+                </div>
+            </div>
+        </section>        
+        <section class="about-me" id="about">
+            <div>
+                <h2 class="intro">About Myself</h2>
+                <p class="main-description">
+                    Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                </p>
+                <h2 class="lets-connect">Let's connect</h2>          
+                <ul class="social">
+                    <li>
+                        <a href="https://twitter.com/FirePicaso">
+                            <img src="Assets/Twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mustakim-masum/">
+                            <img src="Assets/Linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.monster.com/">
+                            <img src="Assets/Monster.png" alt="monster">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/firepicaso">
+                            <img src="Assets/gitHub.png" alt="github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com">
+                            <img src="Assets/fingers.png" alt="fingers logo">
+                        </a>
+                    </li>                
+                </ul>
+                <div class="button">
+                    <button class="project">Get my resume</button>
+                </div>
+            </div>
+            <div>
+                <ul class="categories">
+                    <li class="technologies">
+                        <p>
+                            <span class="languages">Languages</span>
+                            <img src="Assets/downArrow.png" alt="down arrow">
+                        </p>
+                        <ul class="technology">
+                            <li>
+                                <img src="Assets/JS.png" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </li>
+                            <li>
+                                <img src="Assets/HLML.png" alt="HTML">
+                                <span>HTML</span>
+                            </li>
+                            <li>
+                                <img src="Assets/CSS.png" alt="CSS">
+                                <span>CSS</span>
+                            </li>
+                        </ul>            
+                    </li>
+                    <li class="technologies notopen">
+                        <p>
+                            <span class="languages">Frameworks</span>
+                            <img src="Assets/rightArrow.png" alt="right arrow">
+                        </p>
+                    </li>
+                    <li class="technologies notopen">
+                        <p>
+                            <span class="languages">Skills</span>
+                            <img src="Assets/rightArrow.png" alt="right arrow">
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact-section" id="form">
+            <div class="contact-section-contents">
+                <h2 class="contact-header">Contact me</h2>
+                <p class="contact-paragraph">
+                    If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
+                </p>
+                <form class="contact-form" action="https://formspree.io/f/mlekqdlj" method="post">
+                    <label class="labels" for="name">Name</label>
+                    <input type="text" id="name" name="name" required maxlength="30" value="Full Name">
+                    <label class="labels" for="email">Email</label>
+                    <input type="email" id="email" name="email" required value="loremipsum@gmail.com">
+                    <label class="labels" for="message">Message</label>
+                    <textarea id="message" name="message" required maxlength="500" placeholder="Write your message here" style="height:200px"></textarea>
+                    <div class="contact-button-div">
+                        <button type="submit" class="contact-button">Get in touch</button>
+                    </div>
+                    <div class="bottom-shape"></div>
+                </form> 
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
