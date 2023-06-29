@@ -18,7 +18,8 @@ const works = [
     client: 'CANOPY',
     workType: 'Back End Dev',
     year: '2015',
-    featuredImage: '.Assets/Tonic1',
+    featuredImage: "./Assets/Tonic1.png",
+    featuredImageBig: './Assets/Tonic1Big.svg', 
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -30,7 +31,8 @@ const works = [
     client: 'FACEBOOK',
     workType: 'Full Stack Dev',
     year: '2015',
-    featuredImage: '.Assets/Multi1',
+    featuredImage: './Assets/Muti1.png',
+    featuredImageBig: './Assets/Multi1Big.svg', 
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
@@ -42,7 +44,8 @@ const works = [
     client: 'FACEBOOK',
     workType: 'Full Stack Dev',
     year: '2015',
-    featuredImage: '.Assets/Multi1',
+    featuredImage: './Assets/Tonic2.png',
+    featuredImageBig: './Assets/Multi2Big.svg',
     description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
@@ -54,7 +57,8 @@ const works = [
     client: 'UBER',
     workType: 'Lead Developer',
     year: '2018',
-    featuredImage: '.Assets/Multi1',
+    featuredImage: './Assets/Multi2.png',
+    featuredImageBig: './Assets/Tonic2Big.svg',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     descriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
@@ -79,14 +83,15 @@ function seeProject(index) {
   modalClient.textContent = work.client;
   modalCaption.textContent = work.workType;
   modalYear.textContent = work.year;
-  modalImage.setAttribute('src', work.featuredImage);
   modalSeelive.setAttribute('href', work.liveLink);
-  modalSeesource.setAttribute('href', work.sourceLink);
-
+  modalSeesource.setAttribute('href', work.sourceLink);  
+  
   if (window.innerWidth >= 768) {
     modalDescription.textContent = work.descriptionDesktop;
+    modalImage.setAttribute('src', work.featuredImageBig);
   } else {
     modalDescription.textContent = work.description;
+    modalImage.setAttribute('src', work.featuredImage);
   }
 
   modalTechlist.innerHTML = '';
