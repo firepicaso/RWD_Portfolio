@@ -638,6 +638,7 @@ h2.lets-connect {
 
   .contact-form textarea {
     border-radius: 0;
+    height: 200px;
   }
 
   .validation {
