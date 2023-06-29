@@ -11,6 +11,7 @@ const modalButton1 = document.querySelector('.modal-button1');
 const modalButton2 = document.querySelector('.modal-button2');
 const modalButton3 = document.querySelector('.modal-button3');
 const modalButton4 = document.querySelector('.modal-button4');
+const form = document.querySelector('.contact-form');
 
 const works = [
   {
@@ -145,4 +146,15 @@ modalCancel.addEventListener('click', () => {
   modal.classList.toggle('active');
   main.classList.toggle('blur');
   header.classList.toggle('blur');
+});
+
+form.addEventListener('submit', (event) => {
+  const email = form.elements['email'].value;
+  const validation = document.querySelector('.validation');
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    validation.innerText = 'Please type email address in lower case!';
+  }else{
+    form.submit();
+  }
 });
