@@ -613,10 +613,10 @@ h2.lets-connect {
   .social {
     margin: 30px 0;
   }
-  
+    
   .contact-section-contents {
     display: flex;
-    
+    align-items: center;
     background-image: url("Assets/contactBig.svg");
     background-repeat: no-repeat;
     background-position: center;
