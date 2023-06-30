@@ -153,10 +153,10 @@ const email = document.getElementById('email');
 const message = document.getElementById('message');
 
 let formData = {
-  fullName : '',
-  email : '',
-  message : ''
-}
+  fullName: '',
+  email: '',
+  message: '',
+};
 
 form.addEventListener('submit', (event) => {
   const validation = document.querySelector('.validation');
@@ -168,7 +168,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-function saveForm () {
+function saveForm() {
   formData.fullName = fullName.value;
   formData.email = email.value;
   formData.message = message.value;
@@ -184,4 +184,4 @@ window.addEventListener('load', () => {
   fullName.value = formData.fullName;
   email.value = formData.email;
   message.value = formData.message;
-})
+});
