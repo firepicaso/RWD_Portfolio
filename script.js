@@ -180,8 +180,11 @@ email.addEventListener('input', saveForm);
 message.addEventListener('input', saveForm);
 
 window.addEventListener('load', () => {
-  formData = JSON.parse(localStorage.getItem('formLocalStorage'));
-  fullName.value = formData.fullName;
-  email.value = formData.email;
-  message.value = formData.message;
+  const localData = localStorage.getItem('formLocalStorage');
+  if (localData !== null) {
+    formData = JSON.parse(localStorage.getItem('formLocalStorage'));
+    fullName.value = formData.fullName;
+    email.value = formData.email;
+    message.value = formData.message;
+  }
 });
