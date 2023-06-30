@@ -148,13 +148,43 @@ modalCancel.addEventListener('click', () => {
   header.classList.toggle('blur');
 });
 
+const fullName = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
+let formData = {
+  fullName: '',
+  email: '',
+  message: '',
+};
+
 form.addEventListener('submit', (event) => {
-  const email = form.elements.email.value;
   const validation = document.querySelector('.validation');
-  if (email !== email.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
     validation.innerText = 'Please type email address in lower case!';
   } else {
     form.submit();
+  }
+});
+
+function saveForm() {
+  formData.fullName = fullName.value;
+  formData.email = email.value;
+  formData.message = message.value;
+  localStorage.setItem('formLocalStorage', JSON.stringify(formData));
+}
+
+fullName.addEventListener('input', saveForm);
+email.addEventListener('input', saveForm);
+message.addEventListener('input', saveForm);
+
+window.addEventListener('load', () => {
+  const localData = localStorage.getItem('formLocalStorage');
+  if (localData !== null) {
+    formData = JSON.parse(localStorage.getItem('formLocalStorage'));
+    fullName.value = formData.fullName;
+    email.value = formData.email;
+    message.value = formData.message;
   }
 });
