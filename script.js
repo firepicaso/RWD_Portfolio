@@ -148,13 +148,14 @@ modalCancel.addEventListener('click', () => {
   header.classList.toggle('blur');
 });
 
-const fullName = form.elements.name;
-const email = form.elements.email;
-const message = form.elements.message;
+const fullName = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
 let formData = {
-  fullName : fullName.value,
-  email : email.value,
-  message : message.value
+  fullName : '',
+  email : '',
+  message : ''
 }
 
 form.addEventListener('submit', (event) => {
@@ -168,7 +169,10 @@ form.addEventListener('submit', (event) => {
 });
 
 function saveForm () {
-  localStorage.setItem(formLocalStorage, JSON.stringify(formData));
+  formData.fullName = fullName.value;
+  formData.email = email.value;
+  formData.message = message.value;
+  localStorage.setItem('formLocalStorage', JSON.stringify(formData));
 }
 
 fullName.addEventListener('input', saveForm);
@@ -176,7 +180,7 @@ email.addEventListener('input', saveForm);
 message.addEventListener('input', saveForm);
 
 window.addEventListener('load', () => {
-  formData = JSON.parse(localStorage.getItem(formLocalStorage));
+  formData = JSON.parse(localStorage.getItem('formLocalStorage'));
   fullName.value = formData.fullName;
   email.value = formData.email;
   message.value = formData.message;
