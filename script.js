@@ -175,3 +175,9 @@ fullName.addEventListener('input', saveForm);
 email.addEventListener('input', saveForm);
 message.addEventListener('input', saveForm);
 
+window.addEventListener('load', () => {
+  formData = JSON.parse(localStorage.getItem(formLocalStorage));
+  fullName.value = formData.fullName;
+  email.value = formData.email;
+  message.value = formData.message;
+})
