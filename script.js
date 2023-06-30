@@ -148,13 +148,30 @@ modalCancel.addEventListener('click', () => {
   header.classList.toggle('blur');
 });
 
+const fullName = form.elements.name;
+const email = form.elements.email;
+const message = form.elements.message;
+let formData = {
+  fullName : fullName.value,
+  email : email.value,
+  message : message.value
+}
+
 form.addEventListener('submit', (event) => {
-  const email = form.elements.email.value;
   const validation = document.querySelector('.validation');
-  if (email !== email.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
     validation.innerText = 'Please type email address in lower case!';
   } else {
     form.submit();
   }
 });
+
+function saveForm () {
+  localStorage.setItem(formLocalStorage, JSON.stringify(formData));
+}
+
+fullName.addEventListener('input', saveForm);
+email.addEventListener('input', saveForm);
+message.addEventListener('input', saveForm);
+
